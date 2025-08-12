@@ -27,10 +27,23 @@ jobs:
 
       - name: Add SPA .htaccess
         run: |
-          echo '# Force HTTPS (optional)\nRewriteEngine On\nRewriteCond %{HTTPS} !=on\nRewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]\n\n# SPA fallback\nRewriteEngine On\nRewriteBase /\nRewriteCond %{REQUEST_FILENAME} !-f\nRewriteCond %{REQUEST_FILENAME} !-d\nRewriteRule . /index.html [L]\n' > dist/.htaccess
+          mkdir -p dist
+          cat > dist/.htaccess << 'EOF'
+          # Force HTTPS (optional; remove if you don't have SSL)
+          RewriteEngine On
+          RewriteCond %{HTTPS} !=on
+          RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+          # SPA fallback: send all requests to index.html (except real files/folders)
+          RewriteEngine On
+          RewriteBase /
+          RewriteCond %{REQUEST_FILENAME} !-f
+          RewriteCond %{REQUEST_FILENAME} !-d
+          RewriteRule . /index.html [L]
+          EOF
 
       - name: Deploy to Hostinger via FTP
-        uses: SamKirkland/FTP-Deploy-Action@4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
