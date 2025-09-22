@@ -11,7 +11,7 @@ function App() {
   const [showChatbot, setShowChatbot] = useState(false);
   const [chatStep, setChatStep] = useState('menu');
   const [chatMessages, setChatMessages] = useState([]);
-  const whatsappUrl = "https://api.whatsapp.com/send/?phone=5573999720561&text=Oi%2C+quero+agendar+meu+hor%C3%A1rio+no+TS+Concept.&type=phone_number&app_absent=0";
+  const whatsappUrl = const whatsappUrl = "https://wa.me/5573999668197?text=Oi%2C+quero+agendar+meu+hor%C3%A1rio+no+TS+Concept.";
   const services = [{
     title: "Mechas Saudáveis",
     desc: "Luzes radiantes sem danificar os fios – técnica exclusiva para resultados naturais.",
