@@ -215,7 +215,7 @@ const whatsappUrl = "https://wa.me/5573999668197?text=Oi%2C+quero+agendar+meu+ho
     const nome = formData.get('nome');
     const whatsapp = formData.get('whatsapp');
     const result = Object.values(quizData).join(', ');
-    window.open(`https://api.whatsapp.com/send/?phone=5573999720561&text=Oi, Tamillis! Sou ${nome} (${whatsapp}). Fiz o teste no seu site e quero agendar minha avaliação. Meu perfil: ${encodeURIComponent(result)}`, '_blank');
+    window.open(`https://api.whatsapp.com/send/?phone=5573999668197&text=Oi, Tamillis! Sou ${nome} (${whatsapp}). Fiz o teste no seu site e quero agendar minha avaliação. Meu perfil: ${encodeURIComponent(result)}`, '_blank');
     setQuizStep(0);
     setQuizData({});
     setSelectedAnswers([]);
@@ -229,7 +229,7 @@ const whatsappUrl = "https://wa.me/5573999668197?text=Oi%2C+quero+agendar+meu+ho
       email: formData.get('email'),
       telefone: formData.get('telefone')
     };
-    window.open(`https://api.whatsapp.com/send/?phone=5573999720561&text=Olá! Me chamo ${data.nome}, meu email é ${data.email} e telefone ${data.telefone}. Quero agendar e ganhar 10% de desconto no próximo atendimento!`, '_blank');
+    window.open(`https://api.whatsapp.com/send/?phone=5573999668197&text=Olá! Me chamo ${data.nome}, meu email é ${data.email} e telefone ${data.telefone}. Quero agendar e ganhar 10% de desconto no próximo atendimento!`, '_blank');
     e.target.reset();
   };
   useEffect(() => {
@@ -248,7 +248,7 @@ const whatsappUrl = "https://wa.me/5573999668197?text=Oi%2C+quero+agendar+meu+ho
           <div className="text-sm font-medium flex items-center justify-center gap-2">
                        <span className="animate-bounce">🎯</span>
             <strong className="text-yellow-200">Novidade:</strong> Sala de espera para mentoria - 
-                       <button onClick={() => window.open('https://api.whatsapp.com/send/?phone=5573999720561&text=Quero fazer parte da sala de espera para mentoria!', '_blank')} className="bg-wine px-3 py-1 rounded-full hover:bg-wine/90 hover:scale-105 font-semibold text-xs transition-all ml-2">
+                       <button onClick={() => window.open('https://api.whatsapp.com/send/?phone=5573999668197&text=Quero fazer parte da sala de espera para mentoria!', '_blank')} className="bg-wine px-3 py-1 rounded-full hover:bg-wine/90 hover:scale-105 font-semibold text-xs transition-all ml-2">
              
               Entre na sala de espera
             </button> 
@@ -340,7 +340,7 @@ const whatsappUrl = "https://wa.me/5573999668197?text=Oi%2C+quero+agendar+meu+ho
                 </div>
                                               <h3 className="font-playfair text-xl font-semibold mb-4 text-brown">{service.title}</h3> 
                 <div className="text-brown-light leading-relaxed mb-4">{service.desc}</div> 
-                                              <a href={`https://api.whatsapp.com/send/?phone=5573999720561&text=${encodeURIComponent(service.whatsapp)}`} className="inline-flex items-center bg-[#C9B6A1] hover:bg-[#C9B6A1]/90 text-warm-white px-4 py-2 rounded-full font-semibold text-sm transition-all hover:scale-105">
+                                              <a href={`https://api.whatsapp.com/send/?phone=5573999668197&text=${encodeURIComponent(service.whatsapp)}`} className="inline-flex items-center bg-[#C9B6A1] hover:bg-[#C9B6A1]/90 text-warm-white px-4 py-2 rounded-full font-semibold text-sm transition-all hover:scale-105">
                  
                   Quero este serviço <ChevronRight className="ml-1 w-4 h-4" />
                 </a> 
