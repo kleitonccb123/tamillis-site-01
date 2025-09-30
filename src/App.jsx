@@ -498,7 +498,7 @@ const whatsappUrl = "https://wa.me/5573999668197?text=Oi%2C+quero+agendar+meu+ho
                 Com um olhar sensível e técnico, cada atendimento é pensado para unir arte, verdade e experiência, criando resultados que valorizam a individualidade.
               </div>
               <div className="text-brown-light mb-8 leading-relaxed"> 
-                <em>"No meu salão, cada mulher é especial. A beleza verdadeira floresce quando respeitamos quem você é e cuidamos com carinho de cada detalho."</em>
+                <em>"No meu salão, cada mulher é especial. A beleza verdadeira floresce quando respeitamos quem você é e cuidamos com carinho de cada detalhe."</em>
               </div>  
                            <a href={whatsappUrl} className="inline-flex items-center text-brown font-semibold hover:text-opacity-80 text-lg">
                  
