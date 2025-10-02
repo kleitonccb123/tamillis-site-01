@@ -669,7 +669,7 @@ const whatsappUrl = "https://wa.me/5573999668197?text=Oi%2C+quero+agendar+meu+ho
                 <a href={whatsappUrl} className="flex items-center space-x-3 text-green-400 hover:text-green-300 transition-colors">
 
                   <Phone className="w-5 h-5" />
-                  <span>(73) 99972-0561</span>
+                  <span>(73) 99966-8197</span>
                 </a>
                                <a href="https://www.instagram.com/tamillissantos/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 text-pink-400 hover:text-pink-300 transition-colors">
 
