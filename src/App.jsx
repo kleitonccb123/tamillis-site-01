@@ -250,7 +250,7 @@ const whatsappUrl = "https://wa.me/5573999668197?text=Oi%2C+quero+agendar+meu+ho
             <strong className="text-yellow-200">Novidade:</strong> Últimas 2 vagas para o estágio VIP de mechas. - 
                        <button onClick={() => window.open('https://api.whatsapp.com/send/?phone=5573999668197&text=Quero fazer parte da Últimas 2 vagas para o estágio VIP de mechas.!', '_blank')} className="bg-wine px-3 py-1 rounded-full hover:bg-wine/90 hover:scale-105 font-semibold text-xs transition-all ml-2">
              
-              Entre na sala de espera
+              Últimas 2 vagas para o estágio VIP de mechas.
             </button> 
           </div> 
           <button onClick={() => setShowOffer(false)} className="absolute right-4 top-3 hover:bg-white/20 rounded-full p-1 transition-colors">
