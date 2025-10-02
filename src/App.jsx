@@ -14,7 +14,7 @@ function App() {
 const whatsappUrl = "https://wa.me/5573999668197?text=Oi%2C+quero+agendar+meu+hor%C3%A1rio+no+TS+Concept.";
   const services = [{
     title: "Mechas Personalizadas",
-    desc: "Luzes radiantes sem danificar os fios – técnica exclusiva para resultados naturais.",
+    desc: "Cada cabelo é único. Nossas mechas não têm padrão: aqui criamos o resultado que combina com você.",
     icon: <Star className="w-8 h-8 stroke-1" />,
     whatsapp: "Quero agendar Mechas Personalizadas!"
   }, {
