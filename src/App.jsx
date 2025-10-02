@@ -23,10 +23,10 @@ const whatsappUrl = "https://wa.me/5573999668197?text=Oi%2C+quero+agendar+meu+ho
     icon: <Sparkles className="w-8 h-8 stroke-1" />,
     whatsapp: "Quero uma coloração exclusiva!"
   }, {
-    title: "Tratamento Restaurador",
+    title: "Tratamento Capilar",
     desc: "Recuperação profunda dos fios – cabelos sedosos e fortalecidos em poucas sessões.",
     icon: <Heart className="w-8 h-8 stroke-1" />,
-    whatsapp: "Quero tratamento restaurador!"
+    whatsapp: "Quero Tratamento Capilar!"
   }, {
     title: "Avaliação Capilar",
     desc: "Diagnóstico completo e personalizado – descubra o que seu cabelo realmente precisa.",
