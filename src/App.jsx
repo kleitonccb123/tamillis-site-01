@@ -28,10 +28,10 @@ const whatsappUrl = "https://wa.me/5573999668197?text=Oi%2C+quero+agendar+meu+ho
     icon: <Heart className="w-8 h-8 stroke-1" />,
     whatsapp: "Quero tratamento restaurador!"
   }, {
-    title: "Consultoria Capilar",
+    title: "Avaliação Capilar",
     desc: "Diagnóstico completo e personalizado – descubra o que seu cabelo realmente precisa.",
     icon: <Award className="w-8 h-8 stroke-1" />,
-    whatsapp: "Quero consultoria capilar!"
+    whatsapp: "Quero Avaliação Capilar!"
   }];
   const testimonials = [{
     name: "Ariane de Jesus",
@@ -124,7 +124,7 @@ const whatsappUrl = "https://wa.me/5573999668197?text=Oi%2C+quero+agendar+meu+ho
       }]
     },
     tratamentos: {
-      message: "💇‍♀️ Nossos tratamentos:\n\n• Mechas personalizadas\n• Coloração exclusiva\n• Tratamentos pré-química\n• Consultoria capilar\n\nTodos com avaliação gratuita!",
+      message: "💇‍♀️ Nossos tratamentos:\n\n• Mechas personalizadas\n• Coloração exclusiva\n• Tratamentos pré-química\n• Avaliação Capilar\n\nTodos com avaliação gratuita!",
       options: [{
         text: "🧪 Fazer teste capilar",
         value: "quiz"
