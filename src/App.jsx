@@ -13,10 +13,10 @@ function App() {
   const [chatMessages, setChatMessages] = useState([]);
 const whatsappUrl = "https://wa.me/5573999668197?text=Oi%2C+quero+agendar+meu+hor%C3%A1rio+no+TS+Concept.";
   const services = [{
-    title: "Mechas Saudáveis",
+    title: "Mechas Personalizadas",
     desc: "Luzes radiantes sem danificar os fios – técnica exclusiva para resultados naturais.",
     icon: <Star className="w-8 h-8 stroke-1" />,
-    whatsapp: "Quero agendar mechas saudáveis!"
+    whatsapp: "Quero agendar Mechas Personalizadas!"
   }, {
     title: "Coloração Exclusiva",
     desc: "Cores pensadas na saúde dos fios, analisando contrastes a partir da base natural, cor da íris e tom de pele.",
