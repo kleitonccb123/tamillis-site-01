@@ -19,7 +19,7 @@ const whatsappUrl = "https://wa.me/5573999668197?text=Oi%2C+quero+agendar+meu+ho
     whatsapp: "Quero agendar mechas saudáveis!"
   }, {
     title: "Coloração Exclusiva",
-    desc: "Cores vibrantes e duradouras, feitas sob medida para realçar sua personalidade.",
+    desc: "Cores pensadas na saúde dos fios, analisando contrastes a partir da base natural, cor da íris e tom de pele.",
     icon: <Sparkles className="w-8 h-8 stroke-1" />,
     whatsapp: "Quero uma coloração exclusiva!"
   }, {
