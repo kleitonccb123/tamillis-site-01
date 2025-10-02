@@ -247,8 +247,8 @@ const whatsappUrl = "https://wa.me/5573999668197?text=Oi%2C+quero+agendar+meu+ho
            {showOffer && <div className="bg-nude-dark text-warm-white py-4 px-4 text-center relative shadow-lg">
           <div className="text-sm font-medium flex items-center justify-center gap-2">
                        <span className="animate-bounce">🎯</span>
-            <strong className="text-yellow-200">Novidade:</strong> Sala de espera para mentoria - 
-                       <button onClick={() => window.open('https://api.whatsapp.com/send/?phone=5573999668197&text=Quero fazer parte da sala de espera para mentoria!', '_blank')} className="bg-wine px-3 py-1 rounded-full hover:bg-wine/90 hover:scale-105 font-semibold text-xs transition-all ml-2">
+            <strong className="text-yellow-200">Novidade:</strong> Últimas 2 vagas para o estágio VIP de mechas. - 
+                       <button onClick={() => window.open('https://api.whatsapp.com/send/?phone=5573999668197&text=Quero fazer parte da Últimas 2 vagas para o estágio VIP de mechas.!', '_blank')} className="bg-wine px-3 py-1 rounded-full hover:bg-wine/90 hover:scale-105 font-semibold text-xs transition-all ml-2">
              
               Entre na sala de espera
             </button> 
