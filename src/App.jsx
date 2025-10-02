@@ -72,7 +72,7 @@ const whatsappUrl = "https://wa.me/5573999668197?text=Oi%2C+quero+agendar+meu+ho
     description: "Tom sofisticado e luminoso"
   }, {
     image: "https://imagedelivery.net/FIZL8110j4px64kO6qJxWA/19a2af0b-df7a-424f-51c0-d97cc74b6e00/public",
-    title: "Loiro dourado",
+    title: "Mechas Loiro dourado",
     description: "Reflexos dourados naturais"
   }, {
     image: "https://imagedelivery.net/FIZL8110j4px64kO6qJxWA/a21e3807-a1f4-473c-6b08-073b3c8cc600/public",
